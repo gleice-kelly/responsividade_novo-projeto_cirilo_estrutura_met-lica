@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #5008c4;
+    color: #333;
+}
+
+header {
+    background-image: url('banner-image.jpg'); /* Troque pelo URL real da imagem */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: hsl(0, 7%, 5%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 38px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.service {
+    width: 30%;
+}
+
+.service h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.pricing {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.price-table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-option {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 22%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.price-option h3 {
+    margin-bottom: 20px;
+}
+
+.price-option p {
+    font-size: 24px;
+    color: #333;
+}
+
+.price-option ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.price-option ul li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5008c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.domain-search {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.domain-search input {
+    padding: 10px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
